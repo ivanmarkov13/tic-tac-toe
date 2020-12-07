@@ -23,7 +23,7 @@ public class TicTacToe {
         System.out.println();
         for (int i = 0; i < BOARDSIZE; i++) {
             for (int j = 0; j < BOARDSIZE; j++) {
-                if(j==BOARDSIZE-1){
+                if(j==BOARDSIZE){
                     System.out.print(" "+ board[i][j] +" \n");
                 }
                 else{
@@ -31,7 +31,7 @@ public class TicTacToe {
                 }
             }
 
-            if(i<BOARDSIZE-1){
+            if(i<BOARDSIZE){
                 System.out.print("---");
                 int k=1;
                 while(k<=BOARDSIZE-1){
